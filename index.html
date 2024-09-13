@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blum Free</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- إضافة الصورة كشعار دائري وصغير فوق العنوان -->
+        <img src="https://ton.app/media/42d24c85-53d7-470d-a037-bb226e773470.jpg" alt="شعار Blum Free" class="logo">
+
+        <h1>Blum Free</h1>
+
+        <form id="userForm">
+            <label for="username">اسم المستخدم:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="points">اختر عدد النقاط:</label>
+            <select id="points" name="points" required>
+               <option value="100000">100 نقطة</option>
+                <option value="1000">1,000 نقطة</option>
+                <option value="100000">100,000 نقطة</option>
+                 <option value="100000">1,000,000 نقطة</option>
+            </select>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
